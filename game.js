@@ -3,7 +3,7 @@ kaboom({
   fullscreen: true,
   scale: 2,
   debug: true,
-  clearColor: [0, 0, 0, 1],
+  clearColor: [0, 0, 0, 0],
 });
 
 loadRoot('https://i.imgur.com/');
