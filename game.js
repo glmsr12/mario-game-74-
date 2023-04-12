@@ -37,11 +37,11 @@ scene('game', () => {
     '=============================    ========',
   ];
 
-  const levelCfg = {
+  const levelConfig = {
     width: 20,
     height: 20,
     '=': [sprite('block', solid())],
   };
 
-  const gameLevel = addLevel(map, levelCfg);
+  const gameLevel = addLevel(map, levelConfig);
 });
